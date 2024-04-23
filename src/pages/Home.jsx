@@ -27,7 +27,7 @@ function Home() {
 
   return (
     <div className='container'>
-      <h5 style={{ marginTop: '90px' }}><b>What's on your mind?</b></h5>
+      <h5 style={{ marginTop: '130px' }}><b>What's on your mind?</b></h5>
       <section className="wrapper">
 
         <div className="item">
@@ -145,7 +145,7 @@ function Home() {
 
       <div className='navbars'>
 
-        <nav className={`bg-white pt-3 px-3 ${isFixed && 'fixed-top'}`} style={{ overflowX: 'auto', boxShadow: '0px 4px 6px rgba(0, 0, 0, 0.1)' }}>
+        <nav className={`bg-white pt-5 px-3 ${isFixed && 'fixed-top'}`} style={{ overflowX: 'auto', boxShadow: '0px 4px 6px rgba(0, 0, 0, 0.1)' }}>
           <ul style={{ listStyle: 'none', display: 'flex', gap: '0px', padding: 0 }}>
             <li className='border' style={{ borderRadius: '50px' }}>Filter<FontAwesomeIcon icon={faSliders} className='me-2 ms-2' /></li>
             <li className='border ms-2' style={{ borderRadius: '50px' }}>Sort By<FontAwesomeIcon icon={faAngleDown} className='me-2 ms-2' /></li>

@@ -1,4 +1,6 @@
-
+.navbar {
+    min-height: 70px; /* Adjust as needed */
+}
 .navbar li{
     display: inline;
     list-style: none;
