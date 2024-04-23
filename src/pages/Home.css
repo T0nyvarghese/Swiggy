@@ -1,0 +1,145 @@
+/* Home.css */
+
+/* Common styles */
+
+.wrapper {
+  display: flex;
+  overflow-x: auto; /* Make the container horizontally scrollable */
+  gap: 30px; /* Add gap between items */
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+.item {
+  text-align: center; /* Center text */
+  margin-left: 20px;
+}
+
+.item img {
+  width: 100px; /* Set image width */
+  height: 100px; /* Set image height */
+  border-radius: 50%; /* Make the image circular */
+}
+
+.item h6 {
+  margin-top: 5px; /* Add some space below the image */
+}
+::-webkit-scrollbar {
+  display: none; /* Hide the scrollbar */
+}
+
+
+h5{
+  margin-left: 9%;
+  margin-right: 8%;
+}
+hr{
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+
+/* Card container */
+/* Home.css */
+
+.resto {
+  display: flex;
+  overflow-x: auto;
+  padding: 15px;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+.card {
+  border: none;
+  transition: transform 0.09s ease;
+}
+#kochi{
+  flex-wrap: nowrap
+}
+.restoimage{
+  width: 100%;
+  border-radius: 20px;
+  height:180px
+}
+
+.card:last-child {
+  margin-right: 0;
+}
+
+.card:hover {
+  transform: scale(0.96);
+}
+
+
+/* Navbar */
+.navbars {
+  overflow-x: auto;
+  white-space: nowrap;
+  margin-left: 5%;
+  margin-right: 8%;
+  
+}
+
+li{
+  display: inline-block;
+  font-size: 15px;
+  padding: 5px 12px;
+  white-space: nowrap;
+}
+.online{
+  overflow-x: hidden;
+  margin-left: 8%;
+  margin-right: 8%;
+  
+}
+#car{
+  margin-top: -50px;
+  flex-wrap: nowrap;
+}
+#food{
+  border: none;
+  width: auto;
+  
+}
+.foodimg{
+  border-radius: 20px;
+  width: 100%;
+  height: 150px;
+  border: none;
+}
+.border{
+  border-radius: 15px;
+  padding: 10px 30px;
+}
+.places{
+  overflow-x: hidden;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.top{
+  overflow-x: hidden;
+  padding: 10px 110px;
+  margin-bottom: 100px;
+}
+.apps{
+  overflow-y: hidden;
+  overflow-x: hidden;
+ }
+ /* Media query for smaller screens */
+@media only screen and (max-width: 768px) {
+  .container {
+    margin-top: 100px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .wrapper{
+    margin-right: 0px;
+  }
+  
+  .item {
+    flex-basis: 40%; /* Adjust item width for smaller screens */
+  }
+  
+}
+

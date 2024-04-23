@@ -1,0 +1,16 @@
+
+.header{
+    overflow-x: hidden;
+}
+.navbar li{
+    display: inline;
+    list-style: none;
+    margin-left: 30px;
+    cursor: pointer;
+    
+
+}
+.navbar li:hover{
+    color: orange;
+}
+

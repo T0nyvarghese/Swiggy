@@ -1,0 +1,215 @@
+    <h5 style={{marginTop:'30px'}}>Top restaurant chains in Kochi</h5>
+
+      <div className='card-container'>
+       <div>
+          <div className='row' id='card'>
+          <Card className='card' style={{ maxWidth: '280px', border: 'none' }}>
+      <Card.Img className='restoimage' variant="top" src="https://content.jdmagicbox.com/comp/mumbai/d2/022pxx22.xx22.120204113036.t5d2/catalogue/mcdonald-s-kurla-west-mumbai-fast-food-ej2kvqhjaz.jpg" />
+      <Card.Body>
+        <Card.Title><h6>McDonald's</h6></Card.Title>
+        <h6><FontAwesomeIcon icon={faCertificate} style={{ color: "#2aa246" }} className='me-2' />4.5</h6>
+        <Card.Text>
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </Card.Text>
+      </Card.Body>
+    </Card>
+          <Card className='card' style={{maxWidth:'280px', marginLeft:'20px', border:'none'}}>
+            <Card.Img className='restoimage' variant="top" src="https://im1.dineout.co.in/images/uploads/restaurant/sharpen/6/w/j/p62-1493963700590c13b4e9f66.jpg?tr=tr:n-large" />
+            <Card.Body>
+              <Card.Title><h6>Baskin Robbins</h6></Card.Title>
+              <h6><FontAwesomeIcon icon={faCertificate} style={{color: "#2aa246",}} className='me-2' />4.7</h6>
+              <Card.Text>
+                Some quick example text to build on the card title and make up the
+                bulk of the card's content.
+              </Card.Text>
+            </Card.Body>
+          </Card>
+    
+          <Card  className='card' style={{maxWidth:'280px', marginLeft:'20px', border:'none'}}>
+            <Card.Img className='restoimage' variant="top" src="https://b.zmtcdn.com/data/pictures/7/18692657/012e38abbfc9893804c9326764cb80d0.jpg?fit=around|960:500&crop=960:500;*,*"/>
+            <Card.Body>
+              <Card.Title><h6>McDonald's</h6></Card.Title>
+              <h6><FontAwesomeIcon icon={faCertificate} style={{color: "#2aa246",}}className='me-2' />4.3</h6>
+              <Card.Text>
+                Some quick example text to build on the card title and make up the
+                bulk of the card's content.
+              </Card.Text>
+            </Card.Body>
+          </Card>
+    
+          <Card className='card' style={{maxWidth:'280px', marginLeft:'20px', border:'none'}}>
+            <Card.Img className='restoimage'  variant="top" src="https://b.zmtcdn.com/data/pictures/7/18692657/012e38abbfc9893804c9326764cb80d0.jpg?fit=around|960:500&crop=960:500;*,*"/>
+            <Card.Body>
+              <Card.Title><h6>McDonald's</h6></Card.Title>
+              <h6><FontAwesomeIcon icon={faCertificate} style={{color: "#2aa246",}} className='me-2'/>4.3</h6>
+              <Card.Text>
+                Some quick example text to build on the card title and make up the
+                bulk of the card's content.
+              </Card.Text>
+            </Card.Body>
+          </Card>
+  
+          <Card className='card' style={{maxWidth:'280px', marginLeft:'20px', border:'none'}}>
+            <Card.Img className='restoimage' variant="top" src="https://content.jdmagicbox.com/comp/mumbai/d2/022pxx22.xx22.120204113036.t5d2/catalogue/mcdonald-s-kurla-west-mumbai-fast-food-ej2kvqhjaz.jpg"/>
+            <Card.Body>
+              <Card.Title><h6>McDonald's</h6></Card.Title>
+              <h6><FontAwesomeIcon icon={faCertificate} style={{color: "#2aa246",}} className='me-2' />4.8</h6>
+              <Card.Text>
+                Some quick example text to build on the card title and make up the
+                bulk of the card's content.
+              </Card.Text>
+            </Card.Body>
+          </Card>
+          </div>
+   
+       </div>
+     </div>
+
+    <hr/>
+
+    <h5 style={{marginTop:'30px'}}>Restaurants with online food delivery in Kochi</h5>
+
+    <div className='navbars'>
+      <Navbar collapseOnSelect expand="lg">
+        <Container>
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Collapse id="responsive-navbar-nav">
+            <Nav className="me-auto">
+              <Nav.Link className='border d-flex justify-content-center align-items-center' style={{borderRadius:'50px' , marginLeft:'-10px'}}>Filter<FontAwesomeIcon icon={faSliders} className='me-2 ms-2' /></Nav.Link>
+              <Nav.Link className='border' style={{borderRadius:'50px' , marginLeft:'20px'}} >Sort By<FontAwesomeIcon icon={faAngleDown} className='me-2 ms-2'/></Nav.Link>
+              <Nav.Link  className='border' style={{borderRadius:'50px', marginLeft:'20px'}} >Fast Delivery</Nav.Link>
+              <Nav.Link  className='border' style={{borderRadius:'50px', marginLeft:'20px'}}>New on Swiggy </Nav.Link>
+              <Nav.Link className='border' style={{borderRadius:'50px', marginLeft:'20px'}}>Rating 4.0+</Nav.Link>
+              <Nav.Link className='border' style={{borderRadius:'50px', marginLeft:'20px'}}>Pure Veg</Nav.Link>
+              <Nav.Link className='border' style={{borderRadius:'50px', marginLeft:'20px'}} >Offers</Nav.Link>
+              <Nav.Link className='border' style={{borderRadius:'50px', marginLeft:'20px'}} >Rs.300-Rs.600</Nav.Link>
+              <Nav.Link className='border' style={{borderRadius:'50px', marginLeft:'20px'}}>Less Than Rs.300</Nav.Link>
+              
+            </Nav>
+            </Navbar.Collapse>
+        </Container>
+      </Navbar>
+    </div>
+
+    <div className='online'>
+
+      <div className="row">
+        <div className="col-md-3">
+        <Card style={{ width: '100%' }}>
+      <Card.Img variant="top" src="https://content.jdmagicbox.com/comp/mumbai/d2/022pxx22.xx22.120204113036.t5d2/catalogue/mcdonald-s-kurla-west-mumbai-fast-food-ej2kvqhjaz.jpg" />
+      <Card.Body>
+        <Card.Title>Card Title</Card.Title>
+        <Card.Text>
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </Card.Text>
+      </Card.Body>
+    </Card>
+        </div>
+        <div className="col-md-3">
+          <Card style={{ width: '100%' }}>
+      <Card.Img variant="top" src="holder.js/100px180" />
+      <Card.Body>
+        <Card.Title>Card Title</Card.Title>
+        <Card.Text>
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </Card.Text>
+      </Card.Body>
+    </Card>
+    </div>
+        <div className="col-md-3">
+        <Card style={{ width: '100%' }}>
+      <Card.Img variant="top" src="holder.js/100px180" />
+      <Card.Body>
+        <Card.Title>Card Title</Card.Title>
+        <Card.Text>
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </Card.Text>
+      </Card.Body>
+    </Card>
+        </div>
+        <div className="col-md-3">
+        <Card style={{ width: '100%' }}>
+      <Card.Img variant="top" src="holder.js/100px180" />
+      <Card.Body>
+        <Card.Title>Card Title</Card.Title>
+        <Card.Text>
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </Card.Text>
+      </Card.Body>
+    </Card>
+        </div>
+      </div> 
+
+
+      <div className="row">
+      <div className="col-md-3">
+        <Card style={{ width: '100%' }}>
+      <Card.Img variant="top" src="https://content.jdmagicbox.com/comp/mumbai/d2/022pxx22.xx22.120204113036.t5d2/catalogue/mcdonald-s-kurla-west-mumbai-fast-food-ej2kvqhjaz.jpg" />
+      <Card.Body>
+        <Card.Title>Card Title</Card.Title>
+        <Card.Text>
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </Card.Text>
+      </Card.Body>
+    </Card>
+        </div>
+        <div className="col-md-3">
+          <Card style={{ width: '100%' }}>
+      <Card.Img variant="top" src="holder.js/100px180" />
+      <Card.Body>
+        <Card.Title>Card Title</Card.Title>
+        <Card.Text>
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </Card.Text>
+      </Card.Body>
+    </Card>
+    </div>
+        <div className="col-md-3">
+        <Card style={{ width: '100%' }}>
+      <Card.Img variant="top" src="holder.js/100px180" />
+      <Card.Body>
+        <Card.Title>Card Title</Card.Title>
+        <Card.Text>
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </Card.Text>
+      </Card.Body>
+    </Card>
+        </div>
+        <div className="col-md-3">
+        <Card style={{ width: '100%' }}>
+      <Card.Img variant="top" src="holder.js/100px180" />
+      <Card.Body>
+        <Card.Title>Card Title</Card.Title>
+        <Card.Text>
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </Card.Text>
+      </Card.Body>
+    </Card>
+        </div>
+      </div>
+
+      
+      <div className="row"></div>
+  
+     </div>
+
+
+
+
+     
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faAngleDown, faSliders } from '@fortawesome/free-solid-svg-icons';
+import Card from 'react-bootstrap/Card';
+import { faCertificate } from '@fortawesome/free-solid-svg-icons';
