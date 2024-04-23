@@ -1,11 +1,8 @@
 
-.header{
-    overflow-x: hidden;
-}
 .navbar li{
     display: inline;
     list-style: none;
-    margin-left: 30px;
+    margin-left: -10px;
     cursor: pointer;
     
 

@@ -124,22 +124,4 @@ li{
 }
 .apps{
   overflow-y: hidden;
-  overflow-x: hidden;
  }
- /* Media query for smaller screens */
-@media only screen and (max-width: 768px) {
-  .container {
-    margin-top: 100px;
-    margin-right: 10px;
-    margin-left: 10px;
-  }
-  .wrapper{
-    margin-right: 0px;
-  }
-  
-  .item {
-    flex-basis: 40%; /* Adjust item width for smaller screens */
-  }
-  
-}
-

@@ -402,11 +402,11 @@ function Home() {
       </section>
 
       <div className='apps'>
-        <div className='row d-flex justify-content-center align-items-center ' >
-          <div className='col-6 justify-content-center align-items-center' style={{ marginBottom: '-50px', marginTop: '-50px' }}>
-            <h4 style={{ marginLeft: '100px' }}>For better experience,download the swiggy app now</h4>
-          </div>
+        <div className='row justify-content-center align-items-center flex-nowrap ' >
           <div className='col-6' style={{ marginBottom: '-50px', marginTop: '-50px' }}>
+            <h4>For better experience,download the swiggy app now</h4>
+          </div>
+          <div className='col-6 flex-nowrap'>
             <img className='' src="https://freelogopng.com/images/all_img/1664287128google-play-store-logo-png.png" alt="" width={'200px'} height={'60px'} />
             <img className='rounded ms-5' src="https://www.freepnglogos.com/uploads/app-store-logo-png/available-the-app-store-badge-vector-11.png" alt="" width={'200px'} height={'auto'} />
           </div>
